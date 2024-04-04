@@ -1,0 +1,29 @@
+// Анимация для бегущей строки
+
+@keyframes scroll-left {
+    0% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+//Анимация для шахматных фигур
+
+@keyframes spin {
+    100% { transform: rotate(360deg) }
+}
+
+@keyframes moveUpDown {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+    100% { transform: translateY(0); }
+}
+
+@keyframes forwardBackward {
+    0% { transform: translate(0, 0); }
+    50% { transform: translate(-100%, -50%); }
+    100% { transform: translateX(-140%); }
+}
