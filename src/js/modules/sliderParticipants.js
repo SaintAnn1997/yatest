@@ -45,7 +45,6 @@ const sliderParticipants = (sliderWrapperSelector, slidesFieldSelector, slidesSe
     
     };
     
-
     mqHandler();
 
     let slideIndex = slidesPerView;
@@ -78,7 +77,7 @@ const sliderParticipants = (sliderWrapperSelector, slidesFieldSelector, slidesSe
         }
 
         updateSlideNumber();
-    }
+    };
 
     function prevSlide() {
         if (offset == 0) {
@@ -96,7 +95,7 @@ const sliderParticipants = (sliderWrapperSelector, slidesFieldSelector, slidesSe
         }
 
         updateSlideNumber();
-    }
+    };
 
     next.addEventListener('click', () => {
         nextSlide();
@@ -109,7 +108,6 @@ const sliderParticipants = (sliderWrapperSelector, slidesFieldSelector, slidesSe
     setInterval(() => {
         nextSlide();
     }, 4000);
-
 
 };
 
