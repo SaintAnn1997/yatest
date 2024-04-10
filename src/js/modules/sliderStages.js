@@ -66,7 +66,7 @@ const sliderStages = (sliderWrapperSelector, slidesFieldSelector, slidesSelector
                 }
                 updateArrows();
                 changeClassDot();
-            }
+            };
 
             next.addEventListener('click', nextSlide);
             prev.addEventListener('click', prevSlide);
@@ -78,7 +78,7 @@ const sliderStages = (sliderWrapperSelector, slidesFieldSelector, slidesSelector
         } else if (width !== 520 && sliderInitialized) {
             sliderInitialized = false;
         }
-    }
+    };
 
     window.addEventListener('resize', initSlider);
     initSlider();
